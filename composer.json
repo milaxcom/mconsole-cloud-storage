@@ -1,0 +1,23 @@
+{
+    "name": "milax/mconsole-clouds-torage",
+    "description": "Cloud storage module for Mconsole",
+    "authors": [
+        {
+            "name": "Eugene Min",
+            "email": "e.min@milax.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*",
+        "laravelcollective/html": "5.2.*",
+        "dropbox/dropbox-sdk": "^1.1",
+        "league/flysystem-dropbox": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Milax\\Mconsole\\CloudStorage\\": "src/Milax/Mconsole/CloudStorage/"
+        }
+    },
+    "minimum-stability": "stable"
+}
